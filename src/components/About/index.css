@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.about-container {
+  min-height: 100hh;
+  display: flex;
+  flex-direction: column;
+}
+.desktop-img {
+  width: 100%;
+}
+.mobile-img {
+  width: 100%;
+}
+.inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+@media screen and (min-width: 768px) {
+  .mobile-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .desktop-img {
+    display: none;
+  }
+}

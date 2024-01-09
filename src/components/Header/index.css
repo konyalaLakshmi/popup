@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.header {
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 90%;
+}
+.img {
+  height: 16px;
+  width: 18px;
+}
+.b {
+  height: 40px;
+  width: 60px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1000;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+  width: 100vw;
+  display: block;
+}
+.modal-container {
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.p {
+  font-size: 16px;
+  color: black;
+  font-family: 'Roboto';
+  margin-top: 6px;
+}
+.close-button {
+  border: 0px solid none;
+  cursor: pointer;
+  outline: none;
+  height: 30px;
+  width: 30px;
+  border: none;
+  background-color: transparent;
+  align-self: flex-end;
+}

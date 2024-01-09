@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.notFound-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+.img {
+  height: 150px;
+  width: 150px;
+}
+.h1 {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.p {
+  font-size: 13px;
+  color: black;
+}
