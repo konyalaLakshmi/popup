@@ -35,7 +35,7 @@ const Header = () => (
             <GiHamburgerMenu size="30" />
           </button>
         }
-        className="popup-container"
+        className="popup-content"
       >
         {close => (
           <div className="modal-container">
